@@ -3,9 +3,60 @@
 	background-color: gray;
 	border-radius: 0;
 	border:2px solid black;
+	font-family: verdana;
 }
 
-#header-text
+#navlist
 {
-	
+    text-align: center;
+	background-color: white;
+	width:100%;
+	border:3px solid black;
 }
+
+.navlinkstyle
+{
+	color: black;
+	border: 3px solid black;
+}
+
+#menu
+{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+#navbarNav
+  { 
+	visibility: visible;
+  }
+
+.box
+{
+	border:3px solid black;
+	margin: 50px;
+	background-color: gray;
+	font-size: 0.5em;
+}
+
+.box-title
+{
+	text-align: center;
+	padding:5px 10px;
+}
+
+.box-content
+{
+	padding: 10px;
+	margin: 10px;
+}
+
+@media (min-width: 768px)
+{
+  #navbarNav
+  { 
+	visibility: hidden;
+  }
+}
+
