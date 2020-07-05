@@ -28,14 +28,16 @@ hr
 	padding: 10px;
 	margin: 10px;
 }
+#navbutton
+{
+	visibility: visible;
+}
 
 #navbarNav
  { 
 	visibility: visible;
-	width:100%;
 	border:3px solid black;
 	background-color: white;
-	margin :0;
  }
 
 .box
@@ -68,6 +70,10 @@ hr
   #navbarNav
   { 
 	visibility: hidden;
+  }
+  #navbutton
+  {
+  	visibility: hidden;
   }
 }
 
